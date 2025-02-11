@@ -1,0 +1,44 @@
+.whatsapp-button {
+  border: transparent;
+  background-color: transparent;
+  & div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+    width: 320px;
+    border-radius: 40px;
+    background-color: #292929;
+    & p {
+      font-family: "Poppins", serif;
+      color: #ece5dd;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    & i {
+      margin-right: 20px;
+      font-size: 40px;
+      color: #25d366;
+    }
+  }
+}
+.fllow-title {
+  font-family: "Poppins", serif;
+  color: #af9476;
+  font-size: 20px;
+  font-weight: bold;
+}
+.test-container {
+  display: flex;
+  height: 800px;
+  width: 800px;
+  border-radius: 40px;
+  background-color: #e81b20;
+}
+.section-gid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
